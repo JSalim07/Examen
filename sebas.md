@@ -1,12 +1,12 @@
 # Trabajo, Sebastián
-## **$¿$$Qué$ $es$ $un$ $sistema$ $operativo$$?$**
+## **$¿$ $Qué$ $es$ $un$ $sistema$ $operativo$ $?$**
 ### Un sistema operativo, al igual que todo lo que hay en un dispositivo que no sea un hardware, es el software principal con el cual podemos manipular nuestro dispositivo, ya sea una PC o un celular, o tablet.
 
 ### Es lo que permite una interacción entre dispositivo y usuario.
 ### Ejemplo: Windows, Mac OS, Android, iOS, LINUX.
 # 
 
-## **$¿$$Qué$ $hace$ $un$ $administrador$ $de$ $sistemas$$?$**
+## **$¿$ $Qué$ $hace$ $un$ $administrador$ $de$ $sistemas$ $?$**
 ### Es el responsable de, por así decirlo, de configurar todo y darle mantenimiento, supervisar los procesos, ser una parte fundamental de la seguridad de la organización.
 
 # 
@@ -60,7 +60,7 @@
 ### En el apartado de ***priorización de procesos*** se usa el comando "nice" para iniciar un proceso con cierta prioridad (siendo 1 la mayor prioridad), y su variación "renice" cambia la prioridad, no es igual, puesto que "nice" crea y "renice" cambia.
 ### "pidof" obtiene el PID de algun proceso.
 # 
-# **$¿$$Qué$ $es$ $un$ $proceso$$?$**
+# **$¿$ $Qué$ $es$ $un$ $proceso$ $?$**
 ### Esta es una instancia en estado de ejecución, en si, un proceso es una tarea activa, cada proceso tiene un identificador propio de nombre "PID", dicho nombre proviene de su nombre en ingles "Process ID". Cada proceso consume recursos del dispostivo, es decir, asi como tiene un ID propio, tambien se le asignan la cantidad de RAM, CPU, Archivos y dispositivos. Pero no solo se le asignan/consume recursos, sino que tambien cada proceso puede estar en diferentes estados, que son los siguientes:
 - **Nuevo**:Acaba de ser creado dicho proceso, sin embargo, aún no se ha ejecutado.
 - **Ejecutando**:El proceso ya ha empezado a ejecutarse, usando parte de los recursos del dispositivo.
