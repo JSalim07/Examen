@@ -1,15 +1,15 @@
 # Trabajo, Sebastián
-## **$¿$ $Qué$ $es$ $un$ $sistema$ $operativo$ $?$**
+## **$¿$$Qué$ $es$ $un$ $sistema$ $operativo$$?$**
 ### Un sistema operativo, al igual que todo lo que hay en un dispositivo que no sea un hardware, es el software principal con el cual podemos manipular nuestro dispositivo, ya sea una PC o un celular, o tablet.
 
 ### Es lo que permite una interacción entre dispositivo y usuario.
 ### Ejemplo: Windows, Mac OS, Android, iOS, LINUX.
-#
+# 
 
-## **$¿$ $Qué$ $hace$ $un$ $administrador$ $de$ $sistemas$ $?$**
+## **$¿$$Qué$ $hace$ $un$ $administrador$ $de$ $sistemas$$?$**
 ### Es el responsable de, por así decirlo, de configurar todo y darle mantenimiento, supervisar los procesos, ser una parte fundamental de la seguridad de la organización.
 
-#
+# 
 
 # **$Dispositivos$ $de$ $entrada$ $,$ $salida$ $y$ $mixto$**
 ### Los dispositivos de entrada son los que permiten al usuario dar todo tipo de valores.
@@ -21,7 +21,7 @@
 
 ### Los dispositivos mixtos son la combinación de los dos anteriores, es decir, que pueden recibir y dar información, y un ejemplo perfecto para este tipo, son las pantallas táctiles, pues si no contamos el teclado, el puro monitor muestra imagen y puede funcionar como teclado.
 
-#
+# 
 
 # **$Comandos$ $Unix$** 
 ### Los comandos de unix son instrucciones que se usan para realizar todas las tareas desde la terminal, pues nos dan la posibilidad de interactuar directamente con el sistema operativo
@@ -37,7 +37,7 @@
 ### kill: Finaliza procesos.
 ### man: Muestra el manual de un comando.
 
-#
+# 
 
 # **$GIT$**
 ### Este es un sistema de control de versiones, es decir, es un programa que ayuda a gestionar cambios realizados en un proyecto.
@@ -49,7 +49,7 @@
 ### Ejemplo: Subversion (SVN)
 ### Sistemas distribuidos: En este tipo, todos los usuarios tienen una copia completa del historial del proyecto, pudiendo incluso trabajar sin conexión
 ### Ejemplo: GIT
-#
+# 
 # **$Comandos$ $UNIX$ $para$ $la$ $administración$ $de$ $procesos$**
 ### A pesar de ya haber mencionado a los procesos de UNIX, en este caso los tomaremos desde la area de procesos, por ejemplo, el comando de "ps" sirve para mostrar información sobre los procesos que estan en ejecución; tiene varias variaciones como por ejemplo: "ps -e" el cual muestra todos los procesos, "ps -f" da información detallada( como el usuario, PID), "ps aux" muestra todos los procesos con muchos mas detalles.
 
@@ -59,15 +59,15 @@
 ### Y por el otro lado, si es que se busca mandar un proceso a segundo plano usamos el comando de "bg" y el numero dado por el comando "jobs". Ejemplo: "bg %1"
 ### En el apartado de ***priorización de procesos*** se usa el comando "nice" para iniciar un proceso con cierta prioridad (siendo 1 la mayor prioridad), y su variación "renice" cambia la prioridad, no es igual, puesto que "nice" crea y "renice" cambia.
 ### "pidof" obtiene el PID de algun proceso.
-
-# **$¿$ $Qué$ $es$ $un$ $proceso$ $?$**
+# 
+# **$¿$$Qué$ $es$ $un$ $proceso$$?$**
 ### Esta es una instancia en estado de ejecución, en si, un proceso es una tarea activa, cada proceso tiene un identificador propio de nombre "PID", dicho nombre proviene de su nombre en ingles "Process ID". Cada proceso consume recursos del dispostivo, es decir, asi como tiene un ID propio, tambien se le asignan la cantidad de RAM, CPU, Archivos y dispositivos. Pero no solo se le asignan/consume recursos, sino que tambien cada proceso puede estar en diferentes estados, que son los siguientes:
 - **Nuevo**:Acaba de ser creado dicho proceso, sin embargo, aún no se ha ejecutado.
 - **Ejecutando**:El proceso ya ha empezado a ejecutarse, usando parte de los recursos del dispositivo.
 - **Bloqueado**:Puede bloquearse para que así, no consuma recursos en dado caso de estar activo sin mucha prioridad.
 - **Listo**:Ya esta listo para poder ejecutarse.
 - **Terminado**: El proceso ya ha terminado.
-#
+# 
 ## Tipos de procesos
 ### Y así como un proceso puede tener diferentes estados, de igual manera existen tipos de procesos, de "Primer plano","Segundo Plano" y "Procesos del sistema".
 ### Los procesos en ***primer plano***, son aquellos creados por el usuario, es decir, aquellos como block de notas o un navegador que requierern interacción directa. 
