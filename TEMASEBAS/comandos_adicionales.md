@@ -1,0 +1,6 @@
+# **$Comandos$ $adicionales$ $(wildcard,$ $rm,$ $mv$, $ls,$ $obtener$ $peso$ $ordenado)$**
+### A pesar de que ya abordamos los comandos usados en UNIX, existen otros cuantos que vale la pena mencionar, los **"wild cards"** son caracteres especiales usados más que nada para representar varios caracteres en archivos y directorios, se usan para seleccionar varios archivos a la vez.
+### El "* " se usa para nombrar todos los archivos con una terminación especifica que va despues del asterisco, un ejemplo: "ls ( *.txt )* , el signo de interrogación "?" es usado para mostrar todos los archivos con un nombre en comun, por ejemplo si corremos este comando "ls archivo?.txt" un ejemplo de resultado seria asi: archivo1.txt, archivo2.txt, archivo3.txt, archivo4.txt
+### Al usar los corchetes "[]" ocurre algo similar que con el comando anterior(ls * ) solamente que con los corchetes podemos verlo con un rango especifico, es decir, un ejemplo del comando seria "ls archivo[1-3]" y el resultado serian: archivo1.txt, archivo2.txt, archivo3.txt
+### Hay otro comando que es muy similar a los corchetes, y son las llaves "{}", sus usos son muy similares, sin embargo su diferencia radica en que las llaves {}, se puede usar para generar patrones al nombrar archivos, por ejemplo "ls archivo{1,final}", su resultado siendo: "archivo1.txt, archivofinal.txt"
+
