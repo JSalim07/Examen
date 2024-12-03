@@ -4,5 +4,3 @@
 ### Es lo que permite una interacción entre dispositivo y usuario.
 ### Ejemplo: Windows, Mac OS, Android, iOS, LINUX.
 # 
-## **$¿$ $Qué$ $hace$ $un$ $administrador$ $de$ $sistemas$ $?$**
-### Es el responsable de, por así decirlo, de configurar todo y darle mantenimiento, supervisar los procesos, ser una parte fundamental de la seguridad de la organización. 
