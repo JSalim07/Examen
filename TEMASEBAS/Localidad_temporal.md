@@ -1,9 +1,3 @@
-<style>
-    body {
-        font-family: "Times New Roman", Times, serif;
-    }
-</style>
-
 ### La **localidad temporal** es un principio en el mundo de la informática, pues refiere al hecho de que si algún dato es utilizado, muy probablemente este mismo dato sea usado en un futuro cercano.
 
 ----------
