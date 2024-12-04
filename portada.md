@@ -1,6 +1,6 @@
 <div align="center" style="font-family: Times New Roman, sans-serif; line-height: 1.6;">
 
-# **Administración de la Protección y Seguridad en Sistemas Operativos**
+# **Sistemas Operativos**
 
 ---
 
