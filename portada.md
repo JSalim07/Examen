@@ -10,14 +10,14 @@
 ### Francisco Sebastián Avitia Jaquez
 **Matrícula:** 14874
 
-### Justin Salem
+### Justin Salim Contreras
 **Matrícula:** 13634
 
 ---
 
 **Materia:** Sistemas Operativos
 
-**Profesor:** Jorge Romo Gonzales
+**Profesor:** Jorge Romo Gonzáles
 
 **Fecha:** 4/12/2024
 
