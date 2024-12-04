@@ -1,213 +1,83 @@
-<span style="font-size: 17px;"><strong>Ejemplo: </strong></span>
+| Comando | Descripción |
+|---------|-------------|
+| ```bash ls -l ``` | Muestra los archivos con detalles como permisos y tamaño. |
 
-- ```bash
-      ls -l
-    ```
+## Comandos Básicos
 
--<span style="font-size: 17px;">muestra los archivos con detalles como permisos y tamaño.</span>
+| Comando | Descripción |
+|---------|-------------|
+| ```bash cp archivo1.txt copia_archivo1.txt ``` | Copia un archivo o directorio. |
+| ```bash mv archivo1.txt nueva_carpeta/ ``` | Mueve o renombra archivos y directorios. |
+| ```bash rm archivo1.txt ``` | Elimina archivos. |
+| ```bash cat archivo1.txt ``` | Muestra el contenido de un archivo en el terminal. |
+| ```bash touch nuevo_archivo.txt ``` | Crea un archivo vacío. |
+| ```bash file imagen.jpg ``` | Muestra el tipo de un archivo. |
 
-- <span style="font-size: 17px;"><strong>cp: Copia un archivo o directorio.</strong></span>
+## 2. Comandos para la Manipulación de Directorios
 
-    - ```bash 
-        cp archivo1.txt copia_archivo1.txt
-        ```
+| Comando | Descripción |
+|---------|-------------|
+| ```bash mkdir nueva_carpeta ``` | Crea un nuevo directorio. |
+| ```bash rmdir carpeta_vacía ``` | Elimina un directorio vacío. |
+| ```bash cd documentos ``` | Cambia el directorio actual a "documentos". |
+| ```bash pwd ``` | Muestra el directorio actual. |
+| ```bash tree ``` | Muestra la estructura de directorios en forma de árbol. |
 
+## 3. Comandos para Inspeccionar el Sistema
 
-<span style="font-size: 17px;"><strong>mv: Mueve o renombra archivos y directorios.</strong></span>
-- ```bash
-      mv archivo1.txt nueva_carpeta/
-    ```
+| Comando | Descripción |
+|---------|-------------|
+| ```bash df -h ``` | Muestra el espacio disponible en los sistemas de archivos en un formato legible para humanos. |
+| ```bash du -sh carpeta/ ``` | Muestra el uso de espacio en disco por archivos o directorios. |
+| ```bash uname -a ``` | Muestra información completa sobre el sistema operativo. |
+| ```bash who ``` | Lista los usuarios que están conectados al sistema. |
+| ```bash top ``` | Muestra los procesos que consumen más recursos en tiempo real. |
 
-- <span style="font-size: 17px;">(mueve el archivo).</span>
+## 4. Comandos de Gestión de Procesos
 
-<span style="font-size: 17px;"><strong>rm: Elimina archivos.</strong></span>
-- ```bash
-      rm archivo1.txt
-    ```
+| Comando | Descripción |
+|---------|-------------|
+| ```bash ps aux ``` | Muestra una lista de todos los procesos en ejecución. |
+| ```bash kill 1234 ``` | Termina un proceso por su ID (donde 1234 es el ID del proceso). |
+| ```bash fg ``` | Mueve un proceso al primer plano. |
+| ```bash jobs ``` | Lista los procesos en segundo plano. |
 
-- <span style="font-size: 17px;">elimina un archivo.</span>
+## 5. Comandos de Búsqueda
 
-<span style="font-size: 17px;"><strong>cat: Muestra el contenido de un archivo en el terminal.</strong></span>
-- ```bash
-      cat archivo1.txt
-    ```
+| Comando | Descripción |
+|---------|-------------|
+| ```bash find /home -name "archivo*.txt" ``` | Busca archivos cuyo nombre empiece con "archivo" y terminen con ".txt". |
+| ```bash grep "palabra" archivo.txt ``` | Busca "palabra" dentro del archivo. |
+| ```bash locate archivo.txt ``` | Busca archivos rápidamente usando una base de datos preindexada. |
 
-<span style="font-size: 17px;"><strong>touch: Crea un archivo vacío.</strong></span>
-- ```bash
-      touch nuevo_archivo.txt
-    ```
+## 6. Comandos de Compresión y Archivos
 
-<span style="font-size: 17px;"><strong>file: Muestra el tipo de un archivo.</strong></span>
-- ```bash
-      file imagen.jpg
-    ```
+| Comando | Descripción |
+|---------|-------------|
+| ```bash tar -cvf archivo.tar carpeta/ ``` | Crea un archivo .tar. |
+| ```bash gzip archivo.txt ``` | Comprime un archivo. |
+| ```bash zip archivo.zip archivo1.txt archivo2.txt ``` | Comprime archivos en formato .zip. |
 
-<span style="font-size: 17px;"><strong>2. Comandos para la Manipulación de Directorios</strong></span>
-<span style="font-size: 17px;"><strong>mkdir: Crea un nuevo directorio.</strong></span>
-- ```bash
-      mkdir nueva_carpeta
-    ```
+## 7. Comandos para Conexiones de Red
 
-<span style="font-size: 17px;"><strong>rmdir: Elimina un directorio vacío.</strong></span>
-- ```bash
-      rmdir carpeta_vacía
-    ```
+| Comando | Descripción |
+|---------|-------------|
+| ```bash ping google.com ``` | Envía paquetes a un servidor para probar la conexión. |
+| ```bash wget https://example.com/archivo.zip ``` | Descarga archivos desde una URL. |
+| ```bash scp archivo.txt usuario@servidor:/ruta/ ``` | Copia archivos entre computadoras usando SSH. |
+| ```bash curl https://example.com ``` | Transfiere datos desde o hacia un servidor. |
 
-<span style="font-size: 17px;"><strong>cd: Cambia el directorio actual.</strong></span>
-- ```bash
-      cd documentos
-    ```
-    - <span style="font-size: 17px;">te lleva al directorio "documentos".</span>
+## 8. Comandos de Permisos
 
-<span style="font-size: 17px;"><strong>pwd: Muestra el directorio actual.</strong></span>
-    - <span style="font-size: 17px;">Si estás en </span>
-- ```bash
-      /home/usuario
-    ```
-    - <span style="font-size: 17px;">, el comando </span>
-    - ```bash
-      pwd
-      ```
-    - <span style="font-size: 17px;">devolverá esa ruta.</span>
+| Comando | Descripción |
+|---------|-------------|
+| ```bash chmod 755 archivo.sh ``` | Cambia los permisos de un archivo o directorio, dando permisos de ejecución. |
+| ```bash chown usuario:grupo archivo.txt ``` | Cambia el propietario de un archivo o directorio. |
 
-<span style="font-size: 17px;"><strong>tree: Muestra la estructura de directorios en forma de árbol.</strong></span>
-- ```bash
-      tree
-    ```
-    - <span style="font-size: 17px;">(requiere instalación en algunos sistemas).</span>
+## 9. Comandos Útiles de Administración
 
-<span style="font-size: 17px;"><strong>3. Comandos para Inspeccionar el Sistema</strong></span>
-<span style="font-size: 17px;"><strong>df: Muestra el espacio disponible en los sistemas de archivos.</strong></span>
-- ```bash
-      df -h
-    ```
-    - <span style="font-size: 17px;">muestra los resultados en un formato legible para humanos.</span>
-
-<span style="font-size: 17px;"><strong>du: Muestra el uso de espacio en disco por archivos o directorios.</strong></span>
-- ```bash
-      du -sh carpeta/
-    ```
-
-<span style="font-size: 17px;"><strong>uname: Muestra información sobre el sistema operativo.</strong></span>
-- ```bash
-      uname -a
-    ```
-    - <span style="font-size: 17px;">muestra detalles completos.</span>
-
-<span style="font-size: 17px;"><strong>who: Lista los usuarios que están conectados al sistema.</strong></span>
-- ```bash
-      who
-    ```
-
-<span style="font-size: 17px;"><strong>top: Muestra los procesos que consumen más recursos en tiempo real.</strong></span>
-- ```bash
-      top
-    ```
-
-<span style="font-size: 17px;"><strong>4. Comandos de Gestión de Procesos</strong></span>
-<span style="font-size: 17px;"><strong>ps: Muestra una lista de procesos en ejecución.</strong></span>
-- ```bash
-      ps aux
-    ```
-    - <span style="font-size: 17px;">muestra todos los procesos del sistema.</span>
-
-<span style="font-size: 17px;"><strong>kill: Termina un proceso por su ID.</strong></span>
-- ```bash
-      kill 1234
-    ```
-    - <span style="font-size: 17px;">(donde 1234 es el ID del proceso).</span>
-
-<span style="font-size: 17px;"><strong>bg y fg: Mueve procesos al fondo (background) o primer plano (foreground).</strong></span>
-- ```bash
-      fg
-    ```
-    - <span style="font-size: 17px;">trae un proceso al primer plano.</span>
-
-<span style="font-size: 17px;"><strong>jobs: Lista los procesos en segundo plano.</strong></span>
-- ```bash
-      jobs
-    ```
-
-<span style="font-size: 17px;"><strong>5. Comandos de Búsqueda</strong></span>
-<span style="font-size: 17px;"><strong>find: Busca archivos en un directorio y subdirectorios.</strong></span>
-- ```bash
-      find /home -name "archivo*.txt"
-    ```
-    - <span style="font-size: 17px;">busca archivos cuyo nombre empiece con "archivo" y terminen con ".txt".</span>
-
-<span style="font-size: 17px;"><strong>grep: Busca texto dentro de un archivo o flujo de datos.</strong></span>
-- ```bash
-      grep "palabra" archivo.txt
-    ```
-    - <span style="font-size: 17px;">busca "palabra" dentro del archivo.</span>
-
-<span style="font-size: 17px;"><strong>locate: Busca archivos rápidamente usando una base de datos preindexada.</strong></span>
-- ```bash
-      locate archivo.txt
-    ```
-
-<span style="font-size: 17px;"><strong>6. Comandos de Compresión y Archivos</strong></span>
-<span style="font-size: 17px;"><strong>tar: Crea o extrae archivos comprimidos.</strong></span>
-- ```bash
-      tar -cvf archivo.tar carpeta/
-    ```
-    - <span style="font-size: 17px;">crea un archivo .tar.</span>
-
-<span style="font-size: 17px;"><strong>gzip y gunzip: Comprime y descomprime archivos.</strong></span>
-- ```bash
-      gzip archivo.txt
-    ```
-
-<span style="font-size: 17px;"><strong>zip y unzip: Comprime y descomprime archivos en formato .zip.</strong></span>
-- ```bash
-      zip archivo.zip archivo1.txt archivo2.txt
-    ```
-
-<span style="font-size: 17px;"><strong>7. Comandos para Conexiones de Red</strong></span>
-<span style="font-size: 17px;"><strong>ping: Envía paquetes a un servidor para probar la conexión.</strong></span>
-- ```bash
-      ping google.com
-    ```
-
-<span style="font-size: 17px;"><strong>wget: Descarga archivos desde una URL.</strong></span>
-- ```bash
-      wget https://example.com/archivo.zip
-    ```
-
-<span style="font-size: 17px;"><strong>scp: Copia archivos entre computadoras usando SSH.</strong></span>
-- ```bash
-      scp archivo.txt usuario@servidor:/ruta/
-    ```
-
-<span style="font-size: 17px;"><strong>curl: Transfiere datos desde o hacia un servidor.</strong></span>
-- ```bash
-      curl https://example.com
-    ```
-
-<span style="font-size: 17px;"><strong>8. Comandos de Permisos</strong></span>
-<span style="font-size: 17px;"><strong>chmod: Cambia los permisos de un archivo o directorio.</strong></span>
-- ```bash
-      chmod 755 archivo.sh
-    ```
-    - <span style="font-size: 17px;">da permisos de ejecución.</span>
-
-<span style="font-size: 17px;"><strong>chown: Cambia el propietario de un archivo o directorio.</strong></span>
-- ```bash
-      chown usuario:grupo archivo.txt
-    ```
-
-<span style="font-size: 17px;"><strong>9. Comandos Útiles de Administración</strong></span>
-<span style="font-size: 17px;"><strong>history: Muestra el historial de comandos usados.</strong></span>
-- ```bash
-      history
-    ```
-
-<span style="font-size: 17px;"><strong>alias: Crea un alias para un comando.</strong></span>
-- ```bash
-      alias ll='ls -l'
-    ```
-
-<span style="font-size: 17px;"><strong>echo: Muestra un mensaje en la terminal.</strong></span>
-- ```bash
-      echo "Hola Mundo"
-    ```
+| Comando | Descripción |
+|---------|-------------|
+| ```bash history ``` | Muestra el historial de comandos usados. |
+| ```bash alias ll='ls -l' ``` | Crea un alias para un comando. |
+| ```bash echo "Hola Mundo" ``` | Muestra un mensaje en la terminal. |
