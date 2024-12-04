@@ -5,6 +5,7 @@ Un sistema operativo es uno o varios programas que se usan para poder trabajar c
 No solo existen sistemas operativos para computadoras, si no para dispositivos móviles, relojes, televisores, electrodomesticos, etc.
 
 ### Algunos sistemas operativos son:
+
 - Google: Android
 - Apple: iOS
 - Huawei: HarmonyOS
