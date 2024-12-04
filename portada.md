@@ -1,6 +1,3 @@
-# 
-# 
-# 
 <div align="center">
 
 # **Administración de la Protección y Seguridad en Sistemas Operativos**
